@@ -1,0 +1,9 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" appbase="D:\Alla\Work\internal\sdict2db" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="bin\Debug\Editor.exe" />
+  </Config>
+  <Config name="Release" binpathtype="Auto">
+    <assembly path="bin\Release\Editor.exe" />
+  </Config>
+</NUnitProject>

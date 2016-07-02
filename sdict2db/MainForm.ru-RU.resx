@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.AutoScaleMode" type="System.Windows.Forms.AutoScaleMode, System.Windows.Forms">
+    <value>Font</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="infoPanel.ColumnSpan" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="infoValuesLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoValuesLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoValuesLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="infoValuesLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="infoValuesLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="infoValuesLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="infoValuesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 0</value>
+  </data>
+  <data name="infoValuesLabel.Name" xml:space="preserve">
+    <value>infoValuesLabel</value>
+  </data>
+  <data name="infoValuesLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="infoLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="infoLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="infoLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="infoLabel.Name" xml:space="preserve">
+    <value>infoLabel</value>
+  </data>
+  <data name="infoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="infoLabel.Text" xml:space="preserve">
+    <value>Заголовок отсутствует.</value>
+  </data>
+  <data name="infoLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoTableLayoutPanel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoTableLayoutPanel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoTableLayoutPanel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="infoTableLayoutPanel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="infoTableLayoutPanel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="infoTableLayoutPanel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="infoTableLayoutPanel.Name" xml:space="preserve">
+    <value>infoTableLayoutPanel</value>
+  </data>
+  <data name="infoTableLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoPanel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoPanel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoPanel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="infoPanel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="infoPanel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="infoPanel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="infoPanel.Name" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="infoPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="createDbTableButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="createDbTableButton.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="createDbTableButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="createDbTableButton.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="createDbTableButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="createDbTableButton.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="createDbTableButton.Name" xml:space="preserve">
+    <value>createDbTableButton</value>
+  </data>
+  <data name="createDbTableButton.ToolTip" xml:space="preserve">
+    <value>Создать таблицу в базе данных</value>
+  </data>
+  <data name="createDbTableButton.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tableNameTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableNameTextBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableNameTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tableNameTextBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tableNameTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tableNameTextBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tableNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 268</value>
+  </data>
+  <data name="tableNameTextBox.Name" xml:space="preserve">
+    <value>tableNameTextBox</value>
+  </data>
+  <data name="tableNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 20</value>
+  </data>
+  <data name="tableNameTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tablePrefixLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tablePrefixLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tablePrefixLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tablePrefixLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tablePrefixLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tablePrefixLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tablePrefixLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 274</value>
+  </data>
+  <data name="tablePrefixLabel.Name" xml:space="preserve">
+    <value>tablePrefixLabel</value>
+  </data>
+  <data name="tablePrefixLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="connectionStringButton.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="connectionStringButton.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="connectionStringButton.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="connectionStringButton.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="connectionStringButton.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="connectionStringButton.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="connectionStringButton.Name" xml:space="preserve">
+    <value>connectionStringButton</value>
+  </data>
+  <data name="connectionStringButton.ToolTip" xml:space="preserve">
+    <value>Строка подключения...</value>
+  </data>
+  <data name="connectionStringButton.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="connectionStringLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="connectionStringLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="connectionStringLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="connectionStringLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="connectionStringLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="connectionStringLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="connectionStringLabel.Name" xml:space="preserve">
+    <value>connectionStringLabel</value>
+  </data>
+  <data name="connectionStringLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="connectionStringLabel.Text" xml:space="preserve">
+    <value>Ст&amp;рока подключения:</value>
+  </data>
+  <data name="connectionStringLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableNameLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableNameLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableNameLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tableNameLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tableNameLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tableNameLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tableNameLabel.Name" xml:space="preserve">
+    <value>tableNameLabel</value>
+  </data>
+  <data name="tableNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 13</value>
+  </data>
+  <data name="tableNameLabel.Text" xml:space="preserve">
+    <value>&amp;Таблица для словаря:</value>
+  </data>
+  <data name="tableNameLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="connectionStringTextBox.ColumnSpan" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="connectionStringTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="connectionStringTextBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="connectionStringTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="connectionStringTextBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="connectionStringTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="connectionStringTextBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="connectionStringTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 237</value>
+  </data>
+  <data name="connectionStringTextBox.Name" xml:space="preserve">
+    <value>connectionStringTextBox</value>
+  </data>
+  <data name="connectionStringTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 20</value>
+  </data>
+  <data name="connectionStringTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchGroupBox.ColumnSpan" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="filterCheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filterCheckBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filterCheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="filterCheckBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="filterCheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="filterCheckBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="filterCheckBox.Name" xml:space="preserve">
+    <value>filterCheckBox</value>
+  </data>
+  <data name="filterCheckBox.ToolTip" xml:space="preserve">
+    <value>Включить/Отключить фильтрацию</value>
+  </data>
+  <data name="filterCheckBox.UseVisualStyleBackColor" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchTranslateTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchTranslateTextBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchTranslateTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="searchTranslateTextBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="searchTranslateTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchTranslateTextBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchTranslateTextBox.Name" xml:space="preserve">
+    <value>searchTranslateTextBox</value>
+  </data>
+  <data name="searchTranslateTextBox.ToolTip" xml:space="preserve">
+    <value>Введите критерий поиска для переводов</value>
+  </data>
+  <data name="searchWordTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchWordTextBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchWordTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="searchWordTextBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="searchWordTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchWordTextBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchWordTextBox.Name" xml:space="preserve">
+    <value>searchWordTextBox</value>
+  </data>
+  <data name="searchWordTextBox.ToolTip" xml:space="preserve">
+    <value>Введите критерий поиска для слов</value>
+  </data>
+  <data name="searchTableLayoutPanel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchTableLayoutPanel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchTableLayoutPanel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="searchTableLayoutPanel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="searchTableLayoutPanel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchTableLayoutPanel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchTableLayoutPanel.Name" xml:space="preserve">
+    <value>searchTableLayoutPanel</value>
+  </data>
+  <data name="searchTableLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchGroupBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchGroupBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchGroupBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="searchGroupBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="searchGroupBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchGroupBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchGroupBox.Name" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="searchGroupBox.TabStop" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchGroupBox.Text" xml:space="preserve">
+    <value>П&amp;оиск/Фильтр</value>
+  </data>
+  <data name="searchGroupBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="viewPanel.ColumnSpan" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="viewPanel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="viewPanel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="viewPanel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="viewPanel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="viewPanel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="viewPanel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="viewPanel.Name" xml:space="preserve">
+    <value>viewPanel</value>
+  </data>
+  <data name="viewPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mainTableLayoutPanel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mainTableLayoutPanel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mainTableLayoutPanel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="mainTableLayoutPanel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="mainTableLayoutPanel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mainTableLayoutPanel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mainTableLayoutPanel.Name" xml:space="preserve">
+    <value>mainTableLayoutPanel</value>
+  </data>
+  <data name="mainTableLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="statusStrip.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="statusStrip.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="statusStrip.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="statusStrip.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="statusStrip.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="statusStrip.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cancelButton.DropDownButtonWidth" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cancelButton.MergeIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cancelButton.Name" xml:space="preserve">
+    <value>cancelButton</value>
+  </data>
+  <data name="cancelButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="cancelButton.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="cancelButton.ToolTipText" xml:space="preserve">
+    <value>Нажмите [Esc]</value>
+  </data>
+  <data name="statusLabel.MergeIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="statusLabel.Name" xml:space="preserve">
+    <value>statusLabel</value>
+  </data>
+  <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 17</value>
+  </data>
+  <data name="statusLabel.Spring" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="progressBar.Alignment" type="System.Windows.Forms.ToolStripItemAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="progressBar.MergeIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="progressBar.Name" xml:space="preserve">
+    <value>progressBar</value>
+  </data>
+  <data name="percentageLabel.MergeIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="percentageLabel.Name" xml:space="preserve">
+    <value>percentageLabel</value>
+  </data>
+  <data name="statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="statusStrip.ShowItemToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="statusStrip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAAPwAAAH8AAAB/AAAAfwAAAH8AAAB/AAA=
+</value>
+  </data>
+  <data name="$this.KeyPreview" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menuStrip.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menuStrip.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menuStrip.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="menuStrip.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="menuStrip.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="openToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAn9JREFUOE+lk2tI01EYxhf0oU8WqVEIRpaIBWJgSPUhROmippS3QkkTylsXDMW8ts3b
+        1G06daVibuqaOq0sxbBCKBSJ0PJCialZUFSKqaGSt1//TbIsww8deOBwznl+5zkv71kHiP5rGAFrKb1Q
+        5ypR6bmaVU6m2kCiXJv007Om2XgwJEaNT4QiyDi/GF9mKRVgsWkav+CYQkR1utwAQfypphqZ4l/JIhOL
+        jvtGKfCOyDMB6O/WMjNea9L3MT1zIxoM5QrqdWnS1SA+kUq8w1V4hhUgqq1QMj1WtcK88KmIud5oqsqy
+        qCzOQFMopSQvhRvyBApkcQLzV91E1docpr9ol29eFMz0J0Bv2Kr6C3CrVMa3jyWm2EZzc12OSQ8M2TTo
+        ZdytzMCgSUVfIqFcfY2bqiSKlQmoc+JNaUSVJRlMvsvHGHuoVUx9lZKFIQkMp63UW2FtMBH6YuBVFF01
+        /lwO9aoQadSpTAxkwXs596oVtD+ULx36/Qkvg6HDl/k2D2YeufCmwoELZ45MCIA9olKVmK+vJQy3JVOv
+        l7M4KIae8CVAV6hgPMV8uxczLYeZbDrIaN1eJBG2nHazyDN1cZEymdHueG7rcuh8KiTpixYA56AziMVn
+        J5h9coyp5kOM1TvxudqejvRNBHrY4GRnZmcCqLMT6GlJ4Y4uGwZS4IUQ97kfs62eTD12YbzBmRGDAx+0
+        u+iVmyMO24njbqvG5VbOz4yjtjyL3vuRdOSKltUuX0+LbAON0o3UJFmiibPi+pXtBLrvWHR2tHZfBuSm
+        xZIrPk9mfAiJlwKMleWsvxsnj+7H9YAD+xxssbexwnqbBVs2m7HV3GxlI631E9fa/wGRpaRpa3TTbQAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Открыть...</value>
+  </data>
+  <data name="saveToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAjJJREFUOE+lk91L01EYx/NP6L4boYtua2oM52Q5+JVzKMuGYUWk9os0S9NlmqhYmUYt
+        XyCd4tJJq9UknFTkC5giJWIsJfMtp7jE4Ss6EQy+necEO66sizzw/C4OfD7PeV5+IQD27emQ4M1rPyhc
+        betoda7hmX0ZzU0+1FvmUVM9B/NDD+6VTaGkeBwF+V+QmzOMa1fdDGXJ6UNgdxdQXbVFl389m1vb0CV1
+        43TSKx4BgfPlKhdUlK/8E/YtbyLa8BYKhQzjKYcQ2J8ucUFJ8fddBZSZ4G/eVYTpXci/OY2ThhYhsDYu
+        cMEN0+Qfgp3w5wkfDklOZGeNIiHeKgS1j71ckHllOEjwO9zv9uKAxg5ZHoRebxGCqspZLpAvDgYEu8Fd
+        AzPYH9mEM2ffIza2RgjuV0yjswNslMD5lI8wnuvj3aaGUc30bMr8C+5BovEdJMksBLdLJ9DuAtsBoMX2
+        g819A2V3F3lTqWFUc0a6OwDHJbRBqy0XglsFo3A8B55Yt9ni+KFLzgoKwwUTki8X8sxx8Qw+4YBGUyoE
+        ptwRBgOVj/w8MwnYeiNMJWFobAEjU4uQc+4gRtfKYdUxG9TqQiGgtbTUIfBsEhB8Ke8BvnqW4Jlfw/Ui
+        M8I1NgY3IzyqAarIPCHISP/E6l7nNR/UOhB6RMKL9l64OvrR2TOAvg9DOK43QqFuRASDDytroVRmBwkS
+        01J7+XrShtGS0JxpVNRtahjVTFkpCD4akSkE9FP8b/wEuMDBOdcQbKsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить...</value>
+  </data>
+  <data name="createDBTableToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="createDBTableToolStripMenuItem.Text" xml:space="preserve">
+    <value>Создать таблицу в БД</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 6</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ранее открытые файлы</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Файл</value>
+  </data>
+  <data name="connectionStringToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAhJJREFUOE+Vk31LU2EYxif0TfoCwf7qSyTVB5Aos2bDRubKajGsRGz1RwQuSsssI0Vn
+        Ls2ypA10ypbBKtecx9f1QiJkpaTJr/t+9nKwlOiBH+dwnnNf1/Xc9zklgOO/VukOU5CY23A4xylxXAkv
+        oFzt+0ggnKUxNEtD5xT1D1JcbEvib36Fr2mU2mtRaAmCr5b4LofBmAcezfNrA4OudbmursPyT1j8AR+W
+        YXpJNvLFlJXCvp1c3rs7J9DYPcOaFCl14rgV2xUbgYbODCtrGNR5Rfgm7kur8Pl73vncaSjbA/tzzp4L
+        vcbdCFxqn+CrFCh/um/lnHiT2SxQ15o0Z1VUwOnEwGLcNMw45888tgAj45N4/D12An9zgqw0SlGB4lIB
+        RZqnsXVveB5exjNUne+yBXxNMSzpslIQCAaDuTHli/Vt3YvMwFAsg/vMQ1tA55v6gmFTAjuLudO95xb0
+        Ry0qT7XbAt7AIK8/YdhujIXnAxl4HLFwnbxrC1TX9zMqzVHGshCTc47I/fAcRGcl8jQMivPAJITfQ2jI
+        osJz2xbQjkbkReVfCUIT0PXCotx90xZwn+3gmUQzTOWuT4UnQp+49oprTwq6pbjjbU7goEv+icKHVBB4
+        l06TTKXRD0VnrePSjmvT9NwaXYv/Eqj03qdIzT1cXqGmjaPVrRw5cYfDx1sor7rFoWM3xLnJcKDiejHB
+        b88e++xiBDeHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="connectionStringToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="connectionStringToolStripMenuItem.Text" xml:space="preserve">
+    <value>Строка подключения...</value>
+  </data>
+  <data name="languageToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAU5JREFUOE9j/P//PwNFAGQAJZgizWDXI9senj7lQWrD4b9dnZuF3ANalGwTNnwOK9n/
+        JyF3lVbZnBfM2FyKYoBHZMf/2dtf/C+dcvtvUOGhf7HNV/5P3fb1f3bHlf+RVaf/e2fv+W+dsBZoDsLb
+        KAaE5c+L8k+Z8X/e/p//e9Z//p8/7dH/3rUf/xfO+fw/u/fGX8PIef8axFg4cRoAknAKaf0/ecvH/53r
+        vv2vX/zhf+GMN/996x7+MYlb/q1WhIUD3RsYgegW11cV6l3wN3vG9/+R7Y/+mscu+q8fvvg3UDMbwTAA
+        KfBJm8ps7dfwI7XrzH+j6Plfa0Q5MGzF6wWQpJ139Qxzt7K3/RaKAoTSCNZ0oOdZL6DmVPlDxaEylywD
+        QJqU7cvbFG3LLpNtgKxFkaKsZdEXSdM8IXyG4E3KYkY5rGS7gJBGmDzFmQkAA56cQFdocOoAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="optionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="optionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Параметры</value>
+  </data>
+  <data name="menuStrip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="saveFileDialog.Filter" xml:space="preserve">
+    <value>Словари SDict (*.txt)|*.txt</value>
+  </data>
+  <data name="saveFileDialog.Title" xml:space="preserve">
+    <value>Сохранить файл</value>
+  </data>
+  <data name="openFileDialog.Filter" xml:space="preserve">
+    <value>Словари Dict (*.dct)|*.dct|Словари SDict (*.txt)|*.txt</value>
+  </data>
+  <data name="openFileDialog.Title" xml:space="preserve">
+    <value>Открыть файл</value>
+  </data>
+</root>

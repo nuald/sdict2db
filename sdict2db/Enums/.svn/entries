@@ -1,0 +1,52 @@
+8
+
+dir
+309
+svn://eellc.ru/home/svn/internal/trunk/sdict2db/Enums
+svn://eellc.ru/home/svn/internal
+
+
+
+2008-03-28T03:49:33.521036Z
+299
+morgunova
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+723a95d6-cd68-11dc-9ea9-a343617afe5b
+
+OperationState.cs
+file
+
+
+
+
+2008-03-29T02:48:41.000000Z
+6854b44c3935eb2762789f5b2dbf65b0
+2008-03-28T03:49:33.521036Z
+299
+morgunova
+
+OperationType.cs
+file
+
+
+
+
+2008-03-29T02:48:41.000000Z
+3604717e25fd5c15a27f9be4ea55c2d2
+2008-03-28T03:49:33.521036Z
+299
+morgunova
+

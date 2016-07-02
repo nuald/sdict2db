@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Editor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=.\SQLEXPRESS;Persist Security Info=False;integrated security=SSPI</Value>
+    </Setting>
+    <Setting Name="TableSuffix" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Xx_Xx</Value>
+    </Setting>
+    <Setting Name="DefaultSqlProvider" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SQLNCLI.1</Value>
+    </Setting>
+    <Setting Name="TableNamePrefix" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Dictionary_</Value>
+    </Setting>
+    <Setting Name="AppIniFilename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sdict2db_init.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

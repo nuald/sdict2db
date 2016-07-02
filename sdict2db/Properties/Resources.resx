@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalInfoText" xml:space="preserve">
+    <value>Additional Info:</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AddTableHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\AddTableHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmountText" xml:space="preserve">
+    <value>Amount:\t\t</value>
+  </data>
+  <data name="ApplicationCaption" xml:space="preserve">
+    <value>Sdict2db</value>
+  </data>
+  <data name="CancelMessageQuestion" xml:space="preserve">
+    <value>Operation is not finished. Do you want to keep partial results?</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CompressText" xml:space="preserve">
+    <value>Compress:\t\t</value>
+  </data>
+  <data name="ConnectionClosedText" xml:space="preserve">
+    <value>Connection is closed</value>
+  </data>
+  <data name="ConnectionOpenedText" xml:space="preserve">
+    <value>Connection is opened</value>
+  </data>
+  <data name="ConnectionStringText" xml:space="preserve">
+    <value>Connection string:</value>
+  </data>
+  <data name="CopyrightLengthText" xml:space="preserve">
+    <value>Copyright length:\t</value>
+  </data>
+  <data name="CopyrightText" xml:space="preserve">
+    <value>Copyright:</value>
+  </data>
+  <data name="CreateDataTableText" xml:space="preserve">
+    <value>Creating DB table</value>
+  </data>
+  <data name="CreateTableIndexText" xml:space="preserve">
+    <value>Table index is created</value>
+  </data>
+  <data name="CreateTableText" xml:space="preserve">
+    <value>Table is created</value>
+  </data>
+  <data name="DctExtensionText" xml:space="preserve">
+    <value>.dct</value>
+  </data>
+  <data name="DefaultHeaderInfoText" xml:space="preserve">
+    <value>No header info.</value>
+  </data>
+  <data name="DeleteHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\DeleteHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteTableText" xml:space="preserve">
+    <value>Old table is deleted</value>
+  </data>
+  <data name="EditInformationHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\EditInformationHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmptyDictionaryText" xml:space="preserve">
+    <value>Dictionary is empty.</value>
+  </data>
+  <data name="EmptyStringText" xml:space="preserve">
+    <value>String should not be empty.</value>
+  </data>
+  <data name="ErrorText" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FileDoesNotExistText" xml:space="preserve">
+    <value>The file does not exist.</value>
+  </data>
+  <data name="FileParsingErrorText" xml:space="preserve">
+    <value>Error was occured while pasing file.</value>
+  </data>
+  <data name="FillDataText" xml:space="preserve">
+    <value>Saving dictionary to database table. Please wait...</value>
+  </data>
+  <data name="Filter2HS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\Filter2HS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilteredDataMessageQuestion" xml:space="preserve">
+    <value>Do  you really want to save only filtered data? For saving whole the data press 'No'.</value>
+  </data>
+  <data name="Flag_blueHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\Flag_blueHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeaderInfoAdditionalText" xml:space="preserve">
+    <value> (see tooltip for additional info)</value>
+  </data>
+  <data name="HeaderInfoText" xml:space="preserve">
+    <value>Header  info:</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>Index:\t\t\t</value>
+  </data>
+  <data name="InfoText" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="InputLanguageText" xml:space="preserve">
+    <value>Input language:\t\t</value>
+  </data>
+  <data name="LenghtShotText" xml:space="preserve">
+    <value>Shot lenght:\t\t</value>
+  </data>
+  <data name="MessageValidationQueryStringTableErrorText" xml:space="preserve">
+    <value>Input only text, digits or symbol '_'.</value>
+  </data>
+  <data name="NoneText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OffsetArticlesText" xml:space="preserve">
+    <value>Offset for articles:\t</value>
+  </data>
+  <data name="OffsetShotIndexText" xml:space="preserve">
+    <value>Offset for shot index:\t</value>
+  </data>
+  <data name="OffsetWordsIndexText" xml:space="preserve">
+    <value>Offset for words index:\t</value>
+  </data>
+  <data name="openHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\openHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OperationCanceledText" xml:space="preserve">
+    <value>Operation was canceled</value>
+  </data>
+  <data name="OperationParsingText" xml:space="preserve">
+    <value>Dictionary file parsing. Please wait...</value>
+  </data>
+  <data name="OperationSqlText" xml:space="preserve">
+    <value>Saving dictionary to database table. Please wait...</value>
+  </data>
+  <data name="OperationWritingText" xml:space="preserve">
+    <value>Dictionary file saving. Please wait...</value>
+  </data>
+  <data name="OutputLanguageText" xml:space="preserve">
+    <value>Output language:\t</value>
+  </data>
+  <data name="saveHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\saveHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveText" xml:space="preserve">
+    <value>Saving</value>
+  </data>
+  <data name="SignatureText" xml:space="preserve">
+    <value>Signature:\t\t</value>
+  </data>
+  <data name="TableForDictionaryText" xml:space="preserve">
+    <value>Table for dictionary:</value>
+  </data>
+  <data name="TableIsNotValidText" xml:space="preserve">
+    <value>Data table is not valid.</value>
+  </data>
+  <data name="TableNamePattern" xml:space="preserve">
+    <value>Dictionary_{0}</value>
+  </data>
+  <data name="TitleLengthText" xml:space="preserve">
+    <value>Title length:\t\t</value>
+  </data>
+  <data name="TitleText" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="TranslateField" xml:space="preserve">
+    <value>Translation</value>
+  </data>
+  <data name="TxtExtensionText" xml:space="preserve">
+    <value>.txt</value>
+  </data>
+  <data name="VersionLengthText" xml:space="preserve">
+    <value>Version length:\t\t</value>
+  </data>
+  <data name="VersionText" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="WordField" xml:space="preserve">
+    <value>Word</value>
+  </data>
+  <data name="ZeroPercentageText" xml:space="preserve">
+    <value>0%</value>
+  </data>
+</root>
