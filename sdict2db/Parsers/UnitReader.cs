@@ -43,12 +43,10 @@ namespace Sdict2db.Parsers {
 					int doubleBufferLength = buffer.Length * 2;
 					ms.Position = 0;
 					byte[] decompressed = new byte[doubleBufferLength];
-					using (Stream inflater = new InflaterInputStream(ms)) {
-						int count = inflater.Read(decompressed, 0,
-							doubleBufferLength);
-						buffer = new byte[count];
-						Array.ConstrainedCopy(decompressed, 0, buffer, 0, count);
-					}
+					Stream inflater = new InflaterInputStream(ms);
+					int count = inflater.Read(decompressed, 0, doubleBufferLength);
+					buffer = new byte[count];
+					Array.ConstrainedCopy(decompressed, 0, buffer, 0, count);
 				}
 			}
 			return buffer;

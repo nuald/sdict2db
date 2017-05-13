@@ -26,7 +26,7 @@ using System.Text;
 using Sdict2db.Properties;
 
 namespace Sdict2db.PagedGridView {
-	class PagedDataGridView {
+	class PagedDataGridView: IDisposable {
 
 		#region Constants
 
@@ -474,6 +474,21 @@ namespace Sdict2db.PagedGridView {
 					_gridView.Columns[i].HeaderText = columnHeaders[i];
 				}
 			}
+		}
+
+		protected virtual void Dispose(bool disposing) {
+			if (disposing) {
+				// dispose managed resources
+				_scroller.Dispose();
+				_dataPager.Dispose();
+				_gridView.Dispose();
+			}
+			// free native resources
+		}
+
+		public void Dispose() {
+			Dispose(true);
+			GC.SuppressFinalize(this);
 		}
 
 		#endregion

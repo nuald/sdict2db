@@ -124,9 +124,7 @@ namespace Sdict2db.Parsers {
 		public DictHeader ParseHeader() {
 			using (FileStream inputStream = new FileStream(File,
 				FileMode.Open, FileAccess.Read, FileShare.Read, 1024)) {
-				using (BinaryReader binReader = new BinaryReader(inputStream)) {
-					return ReadHeader(binReader);
-				}
+				return ReadHeader(new BinaryReader(inputStream));
 			}
 		}
 
@@ -140,14 +138,11 @@ namespace Sdict2db.Parsers {
 			try {
 				using (FileStream inputStream = new FileStream(File,
 					FileMode.Open, FileAccess.Read, FileShare.Read, 1024)) {
-					using (BinaryReader binReader =
-						new BinaryReader(inputStream)) {
-						DictHeader header = ReadHeader(binReader);
-						if (header != null) {
-							binReader.BaseStream.Position =
-								header.OffsetWordsIndex;
-							ReadArticles(binReader, table, header, e);
-						}
+					BinaryReader binReader = new BinaryReader(inputStream);
+					DictHeader header = ReadHeader(binReader);
+					if (header != null) {
+						binReader.BaseStream.Position = header.OffsetWordsIndex;
+						ReadArticles(binReader, table, header, e);
 					}
 				}
 			} catch (EndOfStreamException) {

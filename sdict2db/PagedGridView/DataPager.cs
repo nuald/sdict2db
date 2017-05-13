@@ -21,7 +21,7 @@ using System.Data;
 using Sdict2db.Helpers;
 
 namespace Sdict2db.PagedGridView {
-	class DataPager {
+	class DataPager : IDisposable {
 
 		#region Private members
 
@@ -307,7 +307,7 @@ namespace Sdict2db.PagedGridView {
 		}
 
 		#endregion
-		
+
 		#region Helpers
 
 		private int RangePosition(int value) {
@@ -327,6 +327,19 @@ namespace Sdict2db.PagedGridView {
 				}
 			}
 			return true;
+		}
+
+		protected virtual void Dispose(bool disposing) {
+			if (disposing) {
+				// dispose managed resources
+				_currentData.Dispose();
+			}
+			// free native resources
+		}
+
+		public void Dispose() {
+			Dispose(true);
+			GC.SuppressFinalize(this);
 		}
 
 		#endregion

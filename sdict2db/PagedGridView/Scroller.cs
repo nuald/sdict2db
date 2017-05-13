@@ -21,7 +21,7 @@ using System.ComponentModel;
 using Sdict2db.Helpers;
 
 namespace Sdict2db.PagedGridView {
-	class Scroller {
+	class Scroller: IDisposable {
 
 		public delegate bool IsScrollNecessaryChecker(
 			ScrollEventType scrollEventType);
@@ -253,6 +253,19 @@ namespace Sdict2db.PagedGridView {
 
 		private static int LastPageChunk(int pageSize) {
 			return 4 * pageSize / 5;
+		}
+
+		protected virtual void Dispose(bool disposing) {
+			if (disposing) {
+				// dispose managed resources
+				_vScrollBar.Dispose();
+			}
+			// free native resources
+		}
+
+		public void Dispose() {
+			Dispose(true);
+			GC.SuppressFinalize(this);
 		}
 
 		#endregion
